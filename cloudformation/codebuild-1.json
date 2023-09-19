@@ -63,7 +63,7 @@
             ]
           },
           "Source": {
-            "Location": "https://github.com/giuseppeborgese/run-terraform-inside-aws-codebuild",
+            "Location": "https://github.com/jagpk/run-terraform-inside-aws-codebuild/tree/multi-repo/repo-1",
             "Type": "GITHUB"
           },
           "TimeoutInMinutes": 10,
