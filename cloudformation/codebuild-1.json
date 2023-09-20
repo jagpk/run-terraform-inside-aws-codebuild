@@ -63,8 +63,10 @@
             ]
           },
           "Source": {
-            "Location": "https://github.com/jagpk/run-terraform-inside-aws-codebuild/tree/multi-repo/repo-1",
-            "Type": "GITHUB"
+            "Location": "https://github.com/jagpk/run-terraform-inside-aws-codebuild.git",
+            "BuildSpec" : "repo-1/buildspec.yml",
+            "GitSubmodulesConfig" : {"FetchSubmodules" : "True" },
+            "Type" : "GITHUB"
           },
           "TimeoutInMinutes": 10,
           "Tags": [ {  "Key": "Project", "Value": "Run Terraform From CodeBuild"  } ]
