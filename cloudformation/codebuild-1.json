@@ -64,7 +64,7 @@
           },
           "Source": {
             "Location": "https://github.com/jagpk/run-terraform-inside-aws-codebuild.git",
-            "BuildSpec" : "repo-1/buildspec.yml",
+            "BuildSpec" : "repo-1/buildspec-1.yml",
             "GitSubmodulesConfig" : {"FetchSubmodules" : "True" },
             "Type" : "GITHUB"
           },
